@@ -1,40 +1,49 @@
-⚙️ Funcionalidades
+Here is the description translated into English and formatted in Markdown:
 
-    Operações suportadas: Adição (+), Subtração (-), Multiplicação (*), e Divisão (/).
-    Validação de entrada: Verifica se os operadores inseridos são válidos e se os números são inteiros.
-    Tratamento de erro: Informa o usuário sobre entradas inválidas e evita divisões por zero.
+```markdown
+# 📊 Simple Calculator in C
 
-🚀 Como usar
+This project is a simple calculator written in C, designed to perform basic arithmetic operations: addition, subtraction, multiplication, and division between two integer numbers. The code is interactive, prompting the user to choose an operation and input numbers for the calculation.
 
-    Clone o repositório:
+## ⚙️ Features
 
-    bash
+- **Supported Operations:** Addition (`+`), Subtraction (`-`), Multiplication (`*`), and Division (`/`).
+- **Input Validation:** Checks if the entered operators are valid and if the numbers are integers.
+- **Error Handling:** Provides feedback on invalid inputs and prevents division by zero.
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+## 🚀 How to Use
 
-Compile o código com o GCC:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/repository-name.git
+   ```
+2. Compile the code with GCC:
+   ```bash
+   gcc -Wall -Wextra -g3 calculator.c -o calculator.exe
+   ```
+3. Run the program:
+   ```bash
+   ./calculator.exe
+   ```
 
-bash
+## 🛠 Requirements
 
-gcc -Wall -Wextra -g3 calculator.c -o calculator.exe
+- **GCC Compiler:** To compile the code (MinGW on Windows).
+- **Terminal:** To execute the compiled program.
 
-Execute o programa:
+## 📚 Technologies Used
 
-bash
+- C Programming Language
+- GCC Compiler (MinGW for Windows)
 
-    ./calculator.exe
+## 📜 Notes
 
-🛠 Requisitos
+- Ensure to input integers and use valid operators.
+- Division by zero is handled to prevent runtime errors.
 
-    Compilador GCC: Para compilar o código (MinGW no Windows).
-    Terminal: Para executar o programa compilado.
+## 📧 Contribution
 
-📚 Tecnologias Utilizadas
+Feel free to open issues or submit pull requests for improvements to the project!
+```
 
-    Linguagem C
-    Compilador GCC (MinGW para Windows)
-
-📜 Notas
-
-    Certifique-se de inserir números inteiros e usar operadores válidos.
-    Divisões por zero são tratadas para evitar erros de execução.
+You can replace `https://github.com/your-username/repository-name.git` with the actual URL of your GitHub repository. If you have any more changes or additional details to include, just let me know!
